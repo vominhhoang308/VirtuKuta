@@ -6,6 +6,10 @@ package: Core
 # core: 8.x
 base theme: false
 
+libraries:
+  - viku/global-styling
+  - viku/global-js
+
 # Information added by Drupal.org packaging script on 2016-06-01
 version: '8.1.2'
 core: '8.x'
