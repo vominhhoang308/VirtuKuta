@@ -1,4 +1,4 @@
-global-styling:
+global-css:
   version: VERSION
   css:
     base:

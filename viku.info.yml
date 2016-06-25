@@ -7,7 +7,7 @@ package: Core
 base theme: false
 
 libraries:
-  - viku/global-styling
+  - viku/global-css
   - viku/global-js
 
 # Information added by Drupal.org packaging script on 2016-06-01
