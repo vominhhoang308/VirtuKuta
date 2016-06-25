@@ -1,3 +1,12 @@
+.layout-content{
+	background-image:url('../images/frontpage_bg.png');
+	background-repeat: no-repeat;
+}
+
 a{
-	color:red;
+	
+}
+
+#firt-part{
+	background-color:white;
 }
