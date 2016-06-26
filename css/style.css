@@ -1,4 +1,4 @@
-.layout-content{
+.layout-content-m{
 	background-image:url('../images/frontpage_bg.png');
 	background-repeat: no-repeat;
 	width: 1356px;
@@ -90,19 +90,13 @@
 }
 
 .main-navigation{
+	/*background-color:red;*/		
+}
 
-	background-color:red;		
-	li {
-		float: left;
-	}
-	
-	a{
-		display:block;
-		text-decoration: none;
-	}
+#block-viku-main-menu{
+	margin: auto;
 }
 
 #block-viku-main-menu li{
-	float: left;
 	display: inline;
 }
