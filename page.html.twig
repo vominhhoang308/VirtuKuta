@@ -46,8 +46,10 @@
  */
 #}
 
-<header role="banner">
-    {{ page.header }}
+<header class="main-header" role="banner">
+	<div class = "container">
+		{{ page.header }}
+	</div>
 </header>
 
 <div class="layout-container">
@@ -65,17 +67,22 @@
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
     <div class="layout-content">
-      {{ page.content }}
-	  
-	  <div id="firt-part" class="frontp1">
-		Lykkylä-peli on palkittu kunniakirjalla Suomen eOppimiskeskus ry:n kilpailussa oppimispeleille.​ Pelaa verkossa tai lataa peli maksutta tablettiisi!
-	  </div>
-	  <div id="second-part" class="frontp2">
-		<iframe width="455" height="256" src="//www.youtube.com/embed/gqn4_YUyjXA" frameborder="0" allowfullscreen></iframe>
-	  </div>
-	  <div id="third-part" class="frontp3">
-		Virkon parhaat
-	  </div>
+		<div class="my-content">
+		  {{ page.content }}
+		  
+		  <div id="firt-part" class="frontp1">
+			Lykkylä-peli on palkittu kunniakirjalla Suomen eOppimiskeskus ry:n kilpailussa oppimispeleille.​ Pelaa verkossa tai lataa peli maksutta tablettiisi!
+		  </div>
+		  <div id="second-part" class="frontp2">
+			<iframe width="455" height="256" src="//www.youtube.com/embed/gqn4_YUyjXA" frameborder="0" allowfullscreen></iframe>
+		  </div>
+		  <div id="third-part" class="frontp3">
+			Virkon parhaat
+		  </div>
+		  <div id="fourth-part" class="frontp3">
+			Virkon parhaat
+		  </div>
+		</div>
     </div>{# /.layout-content #}
 	
     {% if page.sidebar_first %}

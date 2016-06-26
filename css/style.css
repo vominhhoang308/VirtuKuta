@@ -1,12 +1,37 @@
 .layout-content{
 	background-image:url('../images/frontpage_bg.png');
 	background-repeat: no-repeat;
+	width: 1356px;
+	height: 1183px;
+	margin: auto;
 }
 
-a{
-	
+.main-header{
+	height: 50px;
+}
+
+.my-content{	
+	margin-left:200px;
+}
+
+.logo{
+	img{		
+		max-width:100%;		
+	}	
 }
 
 #firt-part{
 	background-color:white;
+	width: 459px;
+	height: 235.59px;
+	margin-top: 330px;
+	padding: 20px 0 0 10px;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #2e2efc;
+    font-size: 12pt;	
+	font-weight: bold;
+}
+
+#fourth-part{
+	float:right;
 }
