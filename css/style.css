@@ -5,6 +5,7 @@
 	height: 1183px;
 	/*background-size: 1356px 1183px;*/
 	margin: auto;
+	padding-top:400px;
 }
 
 .main-header{
@@ -25,7 +26,6 @@
 	background-color:white;
 	width: 459px;
 	height: 235.59px;
-	margin-top: 320px;
 	padding: 2px 0 0 10px;
 	border-style: solid;
     border-width: 5px 0 0 0;
@@ -45,7 +45,8 @@
 
 .imgfont_a{
 	float:left;
-	margin:8px 6px 0px 6px;
+	margin:6px;
+	padding-top: 8px;
 }
 
 .imgfont_g{
