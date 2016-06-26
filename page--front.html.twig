@@ -46,23 +46,7 @@
  */
 #}
 
-<header class="main-header" role="banner">
-	<div class = "container">
-		{{ page.header }}		
-		<div class="main-navigation">
-			{{page.main_navigation}}
-		</div>
-	</div>
-	{{ page.primary_menu }}
-	{{ page.secondary_menu }}
-
-	{{ page.breadcrumb }}
-
-	{{ page.highlighted }}
-
-	{{ page.help }}
-	{{ page.content }}
-</header>
+{% include directory ~ '/partials/header.html.twig' %}
 
 <div class="container">
 
