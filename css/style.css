@@ -88,3 +88,21 @@
 #fourth-part{
 	float:left;
 }
+
+.main-navigation{
+
+	background-color:red;		
+	li {
+		float: left;
+	}
+	
+	a{
+		display:block;
+		text-decoration: none;
+	}
+}
+
+#block-viku-main-menu li{
+	float: left;
+	display: inline;
+}
