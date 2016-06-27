@@ -115,6 +115,7 @@
 }
 
 #block-viku-main-menu ul ul{
+	display:none;
 	postion: absolute;
 	width: 200px;
 	height:40px;
@@ -124,8 +125,28 @@
 	border-width: 0.5px;
 }	
 
-#block-viku-main-menu ul ul li{
-	
+#block-viku-main-menu >ul :first-child >a{
+	color: #C60048;
+	font-weight: bold;
 }
-	
 
+#block-viku-main-menu >ul :nth-child(2) >a{
+	color: #c700ba;
+	font-weight: bold;
+}
+
+#block-viku-main-menu >ul :nth-child(3) >a{
+	color: #2E89FD;
+	font-weight: bold;
+}
+
+#block-viku-main-menu >ul :nth-child(4) >a{
+	color: #F0BC15;
+	font-weight: bold;
+}
+/*
+.contextual+ ul li:nth-child(2) > a{
+	color: #c700ba;
+	font-weight: bold;
+}
+*/
