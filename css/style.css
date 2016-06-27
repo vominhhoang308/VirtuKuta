@@ -29,13 +29,13 @@
 	padding: 2px 0 0 10px;
 	border-style: solid;
     border-width: 5px 0 0 0;
-	border-color: #2e2efc;
+	border-color: #c700ba;
 }
 
 #firt-part p{
 	font-family: 'Helvetica', 'Arial', sans-serif;
-	color: #2e2efc;
-	font-size: 12pt;	
+	color: #0093D3;
+	font-size: 11pt;	
 	font-weight: bold;
 }
 
@@ -67,8 +67,8 @@
 
 #third-part p{
 	font-family: 'Helvetica', 'Arial', sans-serif;
-	color: #2e2efc;
-	font-size: 12pt;	
+	color: #0093D3;
+	font-size: 11pt;	
 	font-weight: bold;
 }
 
@@ -99,6 +99,13 @@
 	margin: auto;
 }
 
+#block-viku-main-menu li{
+	/*display: inline;*/
+	float: left;
+	position: relative;
+	list-style-type: none;
+}
+
 #block-viku-main-menu ul li >a{
 	text-decoration: none;
 }
@@ -110,12 +117,15 @@
 #block-viku-main-menu ul ul{
 	postion: absolute;
 	width: 200px;
-	/*background-color: red;*/
+	height:40px;
+	background-color: white;
+	border-style: solid;
+    border-color: #B7CCD2;
+	border-width: 0.5px;
 }	
 
-#block-viku-main-menu li{
-	/*display: inline;*/
-	float: left;
-	position: relative;
-	list-style-type: none;
+#block-viku-main-menu ul ul li{
+	
 }
+	
+
