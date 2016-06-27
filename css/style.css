@@ -85,8 +85,26 @@
 	margin:6px;
 }
 
+#playbutton_front{
+	postion:relative;
+	margin: 0 0 30px 680px;
+}
+/*
+#text {
+	position:absolute;
+	z-index: 100;
+	margin: 0 0 80px 700px;
+}
+*/
 #fourth-part{
-	float:left;
+	float:right;
+	margin-right: 420px;
+	background-color:white;
+	width: 222px;
+	height: 420px;
+	border-style: solid;
+    border-width: 5px 0 0 0;
+	border-color: #FFA500
 }
 
 /* header CSS */
