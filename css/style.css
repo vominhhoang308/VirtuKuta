@@ -89,6 +89,8 @@
 	float:left;
 }
 
+/* header CSS */
+
 .main-navigation{
 	/*background-color:red;*/		
 }
@@ -97,6 +99,24 @@
 	margin: auto;
 }
 
-#block-viku-main-menu li{
-	display: inline;
+#block-viku-main-menu ul li >a{
+	text-decoration: none;
 }
+
+#block-viku-main-menu ul li >a:hover{
+	text-decoration: underline;
+}
+
+#block-viku-main-menu ul ul{
+	postion: absolute;
+	width: 200px;
+	/*background-color: red;*/
+}	
+
+#block-viku-main-menu li{
+	/*display: inline;*/
+	float: left;
+	position: relative;
+	list-style-type: none;
+}
+*/
