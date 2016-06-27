@@ -103,7 +103,7 @@
 	text-decoration: none;
 }
 
-#block-viku-main-menu ul li >a:hover{
+#block-viku-main-menu >ul >li >a:hover{
 	text-decoration: underline;
 }
 
@@ -119,4 +119,3 @@
 	position: relative;
 	list-style-type: none;
 }
-*/
