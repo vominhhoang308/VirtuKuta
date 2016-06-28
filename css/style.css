@@ -210,3 +210,13 @@
     vertical-align: middle;
     font-size: 14px;
 }
+
+#footer-bg-white
+{
+    background-image: url('http://www.virtuaalikunta.net/_layouts/images/Virtuaalikunta.WebTemplates/white_area.png');
+    background-repeat: repeat-x;
+    width: 1158px;
+    height: 155px;
+    padding-left: 198px;
+    margin-bottom: 25px;
+}

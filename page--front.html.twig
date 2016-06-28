@@ -106,74 +106,9 @@
     </footer>
   {% endif %}
   
-  <div id="footer-bg">
-		<footer>
-			<section id="footer-bg-white">
-				<section class="footer-left-links">
-					<h4 id="opeheader">Opettajille<h4>
-					<span id="opelinkit">
-						<ul>
-							<li>
-								Mikä on virtuaalikunta
-							</li>
-							<li>
-								Tutustu Lykkylä-peliin
-							</li>
-						</ul>
-					</span>
-				</section>
-				<section class="footer-middle-links">
-					<h4 id="tietoheader">Tietoa ja tehtäviä<h4>
-					<span id="tietolinkit">
-						<ul>
-							<li>
-								Mikä on kunta?
-							</li>
-							<li>
-								Kuntalaisen ABC
-							</li>
-							<li>
-								Kunnan talous
-							</li>
-							<li>
-								Kuntaliitokset
-							</li>
-							<li>
-								Kuntien tehtävät ja yhteistoiminta
-							</li>
-						</ul>
-					</span>
-				</section>
-				<section class="footer-right-links">
-					<h4 id="peliheader">Pelit<h4>
-					<span id="pelilinkit">
-						<ul>
-							<li>
-								Tutustu peleihin!
-							</li>
-							<li>
-								Lykkylä
-							</li>
-							<li>
-								Kunnat kartalle
-							</li>
-						</ul>
-					</span>
-				</section>
-			</section>
-			
-			<section id="footer-gray-band">
-				<span class="green-square">Yhteystiedot</span>
-				<span class="magenta-square">Anna palautetta</span>
-				<span class="fb-square">Suosittele</span>
-				<span class="blue-square">Kunnat.net</span>
-				<span class="blue-square">Kommunerna.net</span>
-			</section>
-			
-			<section id="footer-copyright">
-				<span class="copyright-text">© Suomen Kuntaliitto</span>
-			</section>
-		</footer>
-	</div>
+  
 
 </div>{# /.layout-container #}
+
+
+{% include directory ~ '/partials/footer.html.twig' %}
