@@ -1,11 +1,13 @@
 .layout-content-m{
-	background-image:url('../images/frontpage_bg.png');
-	background-repeat: no-repeat;
+	/*background-image:url('../images/frontpage_bg.png');
+	background-repeat: no-repeat;*/
 	width: 1356px;
 	height: 1183px;
 	/*background-size: 1356px 1183px;*/
 	margin: auto;
-	padding-top:400px;
+	/*padding-top:400px;*/
+	/*background:url('../images/frontpage_bg.png') no-repeat,  linear-gradient(#00a4f7, #abdcf4, #BDE1F6);*/
+	background: url('../images/frontpage_bg.png') no-repeat, #80CEF9;
 }
 
 .main-header{
@@ -14,6 +16,7 @@
 
 .my-content{	
 	margin-left:200px;
+	margin-top: 20px;
 }
 
 .logo{
@@ -25,8 +28,8 @@
 #firt-part{
 	background-color:white;
 	width: 459px;
-	height: 235.59px;
-	padding: 2px 0 0 10px;
+	height: 195px;
+	padding: 5px 5px 10px 10px;
 	border-style: solid;
     border-width: 5px 0 0 0;
 	border-color: #c700ba;
@@ -40,7 +43,7 @@
 }
 
 #first-part-img{
-	margin: 60px 0 0 0;
+	margin: 40px 0 0 0;
 }
 
 .imgfont_a{
@@ -58,8 +61,9 @@
 }
 
 #third-part{
+	background: white;
 	width: 459px;
-	height: 243.59px;
+	height: 225.59px;
 	border-style: solid;
     border-width: 5px 0 0 0;
 	border-color: #c700ba;
@@ -86,8 +90,9 @@
 }
 
 #playbutton_front{
-	postion:relative;
-	margin: 0 0 30px 680px;
+	postion:absolute;
+	margin-left: 680px;
+	margin-top: 300px;
 }
 /*
 #text {
@@ -107,7 +112,7 @@
 	border-color: #FFA500
 }
 
-/* header CSS */
+/* header CSS change #block-viku-main-menu to corresponding nav id in the company's project*/
 
 .main-navigation{
 	/*background-color:red;*/		
@@ -209,14 +214,4 @@
     margin-right: auto;
     vertical-align: middle;
     font-size: 14px;
-}
-
-#footer-bg-white
-{
-    background-image: url('http://www.virtuaalikunta.net/_layouts/images/Virtuaalikunta.WebTemplates/white_area.png');
-    background-repeat: repeat-x;
-    width: 1158px;
-    height: 155px;
-    padding-left: 198px;
-    margin-bottom: 25px;
 }
