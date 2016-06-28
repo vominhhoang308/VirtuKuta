@@ -168,3 +168,45 @@
 	font-weight: bold;
 }
 */
+
+
+
+
+/*footer stuff*/
+
+#footer-bg
+{
+    width: 1356px;
+    height: 305px;
+    background-image: url("http://www.virtuaalikunta.net/_layouts/images/Virtuaalikunta.WebTemplates/criss-cross.png");
+    background-color: #f3f3f5;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+.footer-left-links
+{
+    float: left;
+    width: 220px;
+    margin-left: 0px;
+}
+
+.footer-middle-links, .footer-right-links
+{
+    float: left;
+    width: 220px;
+    margin-left: 25px;
+}
+
+#footer-gray-band
+{
+    height: 30px;
+    background-color: #dcdcde;
+    width: 1356px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    font-size: 14px;
+}
