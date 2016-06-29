@@ -13,24 +13,52 @@ jQuery(document).ready(function($){
 	$('#nav1').click(function(){		
 		window.location.replace("http://localhost/drupal1/");
 	});
-
-	/*$('#nav2').hover(function(){
-		$("#nav2-s").css("visibility","visible");
-	});	
-	$('#nav2-s').mouseleave(function(){		
-		$("#nav2-s").css("visibility","hidden");
-	});	
-
-	$('#nav3').hover(function(){
-		$("#nav3-s").css("display","block");
-	});	
-	$('#nav3-s').mouseleave(function(){		
-		$("#nav3-s").css("display","none");
-	});	
-	$('#nav4').hover(function(){
-		$("#nav4-s").css("display","block");
-	});	
-	$('#nav4-s').mouseleave(function(){		
-		$("#nav4-s").css("display","none");
-	});*/	
+	
+	$('#nav2').click(function(){		
+		window.location.replace("http://localhost/drupal1/");
+	});
+	$('#nav2-s :first-child').click(function(){		
+		window.location.replace("http://localhost/drupal1/");
+	});
+	$('#nav2-s :nth-child(2)').click(function(){		
+		window.location.replace("http://localhost/drupal1/");
+	});
+	
+	$('#nav3').click(function(){		
+		window.location.replace("http://localhost/drupal1/");
+	});
+	$('#nav3-s :first-child').click(function(){		
+		window.location.replace("http://localhost/drupal1/");
+	});
+	$('#nav3-s :nth-child(2)').click(function(){		
+		window.location.replace("http://localhost/drupal1/");
+	});
+	$('#nav3-s :nth-child(3)').click(function(){		
+		window.location.replace("http://localhost/drupal1/");
+	});
+	$('#nav3-s :nth-child(4)').click(function(){		
+		window.location.replace("http://localhost/drupal1/");
+	});
+	$('#nav3-s :nth-child(5)').click(function(){		
+		window.location.replace("http://localhost/drupal1/");
+	});
+	$('#nav3-s :nth-child(6)').click(function(){		
+		window.location.replace("http://localhost/drupal1/");
+	});
+	
+	$('#nav4').click(function(){		
+		window.location.replace("http://localhost/drupal1/");
+	});
+	$('#nav4-s :first-child').click(function(){		
+		window.location.replace("http://localhost/drupal1/");
+	});
+	$('#nav4-s :nth-child(2)').click(function(){		
+		window.location.replace("http://localhost/drupal1/");
+	});
+	$('#nav4-s :nth-child(3)').click(function(){		
+		window.location.replace("http://localhost/drupal1/");
+	});
+	$('#nav4-s :nth-child(4)').click(function(){		
+		window.location.replace("http://localhost/drupal1/");
+	});
 });
