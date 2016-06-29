@@ -112,10 +112,9 @@
 	border-color: #FFA500
 }
 
-/* header CSS change #block-viku-main-menu to corresponding nav id in the company's project*/
-
-.main-navigation{
-	/*background-color:red;*/		
+/*dymic navbar created by Drupal*/
+/*
+.main-navigation{	
 }
 
 #block-viku-main-menu{
@@ -123,12 +122,13 @@
 }
 
 #block-viku-main-menu li{
-	/*display: inline;*/
 	float: left;
 	position: relative;
 	list-style-type: none;
 }
+*/
 
+/*
 #block-viku-main-menu ul li >a{
 	text-decoration: none;
 }
@@ -168,15 +168,64 @@
 	font-weight: bold;
 }
 
-/*
 .contextual+ ul li:nth-child(2) > a{
 	color: #c700ba;
 	font-weight: bold;
 }
 */
 
+/* static navbar */
 
+.main-navigation {list-style: none;}
+.main-navigation li {
+  display: block;
+  position: relative;
+  float: left;
+}
+.main-navigation li ul { background-color:white;display: none; }
 
+.main-navigation ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.main-navigation ul li ul a:hover { background: #D9D9D9; }
+
+.main-navigation >ul >li >a:hover{
+	text-decoration: underline;
+}
+
+/* Display the dropdown */
+
+.main-navigation li:hover > ul {
+  display: block;
+  position: absolute;
+  border-style: solid;
+  border-color: #B7CCD2;
+  border-width: 0.5px;
+}
+/*
+#nav1, #nav2, #nav3, #nav4, #nav2-s, #nav3-s, #nav4-s{
+	list-style-type: none;
+}*/
+#nav1 a{
+	color: #C60048;
+	font-weight: bold;
+}
+#nav2 a{
+	color: #c700ba;
+	font-weight: bold;
+}
+#nav3 a{
+	color: #2E89FD;
+	font-weight: bold;
+}
+#nav4 a{
+	color: #F0BC15;
+	font-weight: bold;
+}
 
 /*footer stuff*/
 
