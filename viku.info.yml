@@ -15,6 +15,3 @@ core: '8.x'
 regions:
   main_navigation: 'Main Navigation'
   content: 'Content'
-  footer: 'Footer'
-  footer_top: 'Footer Top'
-  footer_top_left: 'Footer Top Left'

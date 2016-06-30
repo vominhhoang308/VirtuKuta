@@ -101,17 +101,17 @@
   </main>
 
   
-  {% if page.footer %}
-  <footer class="footers">
-	
-          <div class="footer-whole">
-            {#{{ page.footer }}#}
-			{{ include('themes/viku/partials/footer.html.twig') }}
-          </div>
+  
     
-    
+{% if page.footer %}
+  <footer role="contentinfo"">
+	  <div class="footer-whole">
+		{% include directory ~ '/partial/footer.html.twig' %}
+	  </div>
   </footer>
-  {% endif %}
+{% endif %}
+    
+  
   
 
 </div>{# /.layout-container #}
