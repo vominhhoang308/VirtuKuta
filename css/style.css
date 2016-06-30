@@ -259,12 +259,113 @@
     margin-left: 0px;
 }
 
+.footer-left-links ul, .footer-middle-links ul, .footer-right-links ul
+    {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        padding-left: 20px;
+    }
+
+
+        .footer-left-links ul li, .footer-middle-links ul li, .footer-right-links ul li
+        {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+		
+.footer-left-links a
+{
+	color: #9b25e9;
+    text-decoration: none;
+    line-height: 20px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 8pt;
+	margin: 0px;
+	padding: 0px;
+}
+
+#opeheader
+    {
+        color: #fff;
+        height: 23px;
+        width: 219px;
+        background-image: url('http://www.virtuaalikunta.net/_layouts/images/Virtuaalikunta.WebTemplates/footer_column1_bg.png');
+        text-transform: uppercase;
+        background-repeat: no-repeat;
+        font-family: MyHelvetica, Helvetica, Arial, Sans-serif;
+        font-size: 11pt;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-top: 7px;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+
 .footer-middle-links, .footer-right-links
 {
     float: left;
     width: 220px;
     margin-left: 25px;
 }
+
+    .footer-middle-links a
+    {
+        color: #0000c3;
+        text-decoration: none;
+        line-height: 20px;
+		font-family:Verdana,Arial,sans-serif;
+	font-size:8pt;
+	margin:0px;
+	padding:0px;
+    }
+
+#tietoheader
+{
+	color: #fff;
+	height: 23px;
+	width: 219px;
+	background-image: url('http://www.virtuaalikunta.net/_layouts/images/Virtuaalikunta.WebTemplates/footer_column2_bg.png');
+	background-repeat: no-repeat;
+	text-transform: uppercase;
+	font-family: MyHelveticam Helvetica, Arial, Sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 7px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+
+    .footer-right-links a
+    {
+        color: #9a6700;
+        text-decoration: none;
+        line-height: 20px;
+		font-family:Verdana,Arial,sans-serif;
+	font-size:8pt;
+	margin:0px;
+	padding:0px;
+    }
+
+    #peliheader
+    {
+        color: #fff;
+        height: 23px;
+        width: 219px;
+        background-image: url('http://www.virtuaalikunta.net/_layouts/images/Virtuaalikunta.WebTemplates/footer_column3_bg.png');
+        background-repeat: no-repeat;
+        text-transform: uppercase;
+        font-family: MyHelvetica, Helvetica, Arial, Sans-serif;
+        font-size: 11pt;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-top: 7px;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
 
 #footer-gray-band
 {
