@@ -100,15 +100,32 @@
 
   </main>
 
+<<<<<<< HEAD
   {% if page.footer %}
     <footer role="contentinfo">
       {{ page.footer }}
     </footer>
   {% endif %}
+=======
+  
+  
+    
+{% if page.footer %}
+  <footer role="contentinfo"">
+	  <div class="footer-whole">
+		{% include directory ~ '/partial/footer.html.twig' %}
+	  </div>
+  </footer>
+{% endif %}
+    
+>>>>>>> a196d2ef72fbe0b542dee2d386daa9479757e2c6
   
   
 
 </div>{# /.layout-container #}
 
 
+<<<<<<< HEAD
 {% include directory ~ '/partials/footer.html.twig' %}
+=======
+>>>>>>> a196d2ef72fbe0b542dee2d386daa9479757e2c6
