@@ -14,27 +14,19 @@ jQuery(document).ready(function($){
 		window.location.replace("http://localhost/drupal1/");
 	});
 	
-<<<<<<< HEAD
 	$('#nav2').click(function(){		
 		window.location.replace("http://localhost/drupal1/");
 	});
 	$('#nav2-s :first-child').click(function(){		
-		window.location.replace("http://localhost/drupal1/");
-=======
-	$('#nav2-s :first-child').click(function(){		
-		window.location.replace("http://google.com");
->>>>>>> a196d2ef72fbe0b542dee2d386daa9479757e2c6
+		window.location.replace("www.google.com");
 	});
 	$('#nav2-s :nth-child(2)').click(function(){		
 		window.location.replace("http://localhost/drupal1/");
 	});
 	
-<<<<<<< HEAD
 	$('#nav3').click(function(){		
 		window.location.replace("http://localhost/drupal1/");
 	});
-=======
->>>>>>> a196d2ef72fbe0b542dee2d386daa9479757e2c6
 	$('#nav3-s :first-child').click(function(){		
 		window.location.replace("http://localhost/drupal1/");
 	});
@@ -54,12 +46,9 @@ jQuery(document).ready(function($){
 		window.location.replace("http://localhost/drupal1/");
 	});
 	
-<<<<<<< HEAD
 	$('#nav4').click(function(){		
 		window.location.replace("http://localhost/drupal1/");
 	});
-=======
->>>>>>> a196d2ef72fbe0b542dee2d386daa9479757e2c6
 	$('#nav4-s :first-child').click(function(){		
 		window.location.replace("http://localhost/drupal1/");
 	});

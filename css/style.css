@@ -11,7 +11,10 @@
 }
 
 .main-header{
-	height: 50px;
+	height: 105px;
+	width: 940px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .my-content{	
@@ -176,22 +179,46 @@
 
 /* static navbar */
 
-.main-navigation {list-style: none;}
+.main-navigation {
+	list-style: none;
+}
+
+#virtuaalikunta-logo-fi{
+	float: left;
+    background: url('../images/logo.PNG');
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    margin-top: 43px;
+    height: 30px;
+    width: 270px;
+}
+
+.main-navigation ul{margin-top:40px; float:left;}
+
 .main-navigation li {
   display: block;
   position: relative;
   float: left;
 }
-.main-navigation li ul { background-color:white;display: none; }
+.main-navigation li ul { background-color:white;display: none;z-index:1; }
 
 .main-navigation ul li a {
+  margin-top: 5px;
   display: block;
   padding: 1em;
+  padding-top: 1px;
+  padding-bottom: 1px;
   text-decoration: none;
   white-space: nowrap;
+  font-style: Helvetica;
 }
 
-.main-navigation ul li ul a:hover { background: #D9D9D9; }
+.main-navigation ul li ul{
+  margin-top: 0px;
+}
+.main-navigation ul li ul a:hover { background: #D9D9D9;}
+
+.main-navigation ul li ul a{color:black !important;}
 
 .main-navigation >ul >li >a:hover{
 	text-decoration: underline;
@@ -300,11 +327,7 @@
         padding-left: 20px;
         padding-top: 7px;
         margin-top: 0px;
-<<<<<<< HEAD
         margin-bottom: -20px;
-=======
-        margin-bottom: 8px;
->>>>>>> a196d2ef72fbe0b542dee2d386daa9479757e2c6
     }
 
 .footer-middle-links, .footer-right-links
@@ -339,11 +362,7 @@
 	padding-left: 20px;
 	padding-top: 7px;
 	margin-top: 0px;
-<<<<<<< HEAD
 	margin-bottom: -20px;
-=======
-	margin-bottom: 8px;
->>>>>>> a196d2ef72fbe0b542dee2d386daa9479757e2c6
 }
 
 
@@ -372,11 +391,7 @@
         padding-left: 20px;
         padding-top: 7px;
         margin-top: 0px;
-<<<<<<< HEAD
         margin-bottom: -20px;
-=======
-        margin-bottom: 8px;
->>>>>>> a196d2ef72fbe0b542dee2d386daa9479757e2c6
     }
 
 #footer-gray-band
@@ -390,10 +405,7 @@
     font-size: 14px;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> a196d2ef72fbe0b542dee2d386daa9479757e2c6
 /* second nav style*/
 
 /* third nav style*/
