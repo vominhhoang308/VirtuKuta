@@ -101,15 +101,17 @@
   </main>
 
   
+  {% if page.footer %}
   <footer class="footers">
-	{% if page.footer %}
+	
           <div class="footer-whole">
             {#{{ page.footer }}#}
 			{{ include('themes/viku/partials/footer.html.twig') }}
           </div>
-    {% endif %}
+    
     
   </footer>
+  {% endif %}
   
 
 </div>{# /.layout-container #}
