@@ -14,19 +14,13 @@ jQuery(document).ready(function($){
 		window.location.replace("http://localhost/drupal1/");
 	});
 	
-	$('#nav2').click(function(){		
-		window.location.replace("http://localhost/drupal1/");
-	});
 	$('#nav2-s :first-child').click(function(){		
-		window.location.replace("http://localhost/drupal1/");
+		window.location.replace("http://google.com");
 	});
 	$('#nav2-s :nth-child(2)').click(function(){		
 		window.location.replace("http://localhost/drupal1/");
 	});
 	
-	$('#nav3').click(function(){		
-		window.location.replace("http://localhost/drupal1/");
-	});
 	$('#nav3-s :first-child').click(function(){		
 		window.location.replace("http://localhost/drupal1/");
 	});
@@ -46,9 +40,6 @@ jQuery(document).ready(function($){
 		window.location.replace("http://localhost/drupal1/");
 	});
 	
-	$('#nav4').click(function(){		
-		window.location.replace("http://localhost/drupal1/");
-	});
 	$('#nav4-s :first-child').click(function(){		
 		window.location.replace("http://localhost/drupal1/");
 	});
