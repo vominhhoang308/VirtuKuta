@@ -2,7 +2,7 @@ name: viku
 type: theme
 description: 'This is the basic custom theme for virtuaalikunta.net'
 package: Core
-base theme: false
+base theme: bootstrap
 
 libraries:
   - viku/global-css
