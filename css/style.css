@@ -6,14 +6,14 @@
 .layout-content-m{
 	/*background-image:url('../images/frontpage_bg.png');
 	background-repeat: no-repeat;*/
-	width: 1356px;
+	/*width: 1356px;*/
 	height: 1183px;
 	/*background-size: 1356px 1183px;*/
 	margin: auto;
 	/*padding-top:400px;*/
 	/*background:url('../images/frontpage_bg.png') no-repeat,  linear-gradient(#00a4f7, #abdcf4, #BDE1F6);*/
 	background: url('../images/frontpage_bg.png') no-repeat, #80CEF9;
-	background-size: 1356px;
+	background-size: 100%;
 }
 
 .main-header{
@@ -412,6 +412,12 @@
 }
 
 /* Media Queries -------------------- */
+
+@media (max-width: 1680px) {
+  .layout-content-m {
+    width:82%;
+  }
+}
 
 @media (max-width: 960px) {
   .layout-content-m {
