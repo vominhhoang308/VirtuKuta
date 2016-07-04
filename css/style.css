@@ -411,9 +411,25 @@
     font-size: 14px;
 }
 
+/* Media Queries -------------------- */
 
-/* second nav style*/
+@media (max-width: 960px) {
+  .layout-content-m {
+    background: url('') no-repeat, #80CEF9;
+  }
+}
 
-/* third nav style*/
+@media (max-width: 480px) {
+  .layout-content-m {
+    background: darkred;
+  }
+}
 
-/* fourth nav style*/
+@media (min-width: 481px) and (max-width: 700px) {
+  .layout-content-m {
+    background: seagreen;
+  }
+  p {
+    color: white;
+  }
+}
