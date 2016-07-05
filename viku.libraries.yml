@@ -3,6 +3,8 @@ global-css:
   css:
     base:
       css/style.css: {}
+      css/footer.css: {}
+      css/testct.css: {}
 
 global-js:
   js:

@@ -45,55 +45,20 @@
  * @ingroup themeable
  */
 #}
-<div class="container">
+
 {% include directory ~ '/partials/header.html.twig' %}
-</div>
-<div class="container-m">
+
+<div class="container">
 
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-    <div class="layout-content-m container">
-  			<img src="themes/VirtuKuta/images/play_button.png" id="playbutton_front">
-  			<!--<p id="text">
-  				Pelaamaan
-  			</p> -->
-      		<div class="my-content">
-      		  <div class="row">
-      			  
-				  <div id="left-part">
-      			  <div id="firt-part" class="frontp1 col-md-3">
-        				<p>Lykkylä-peli on palkittu kunniakirjalla Suomen eOppimiskeskus ry:n kilpailussa oppimispeleille.​ Pelaa verkossa tai lataa peli maksutta tablettiisi!</p>
-        				<div id="first-part-img">
-        					<img src="themes/VirtuKuta/images/apple_s.png" class="imgfont_a">
-        					<img src="themes/VirtuKuta/images/google_s.png" class="imgfont_g">
-        				</div>
-      			  </div>
-      			  <div id="second-part" class="frontp2">
-      				      <iframe width="455" height="256" src="//www.youtube.com/embed/gqn4_YUyjXA" frameborder="0" allowfullscreen></iframe>
-      			  </div>
-      			  <div id="third-part" class="frontp3">
-        				<div class="third-part-c">
-        					<p>Tunne oma kuntasi - tilastotietoa visualisoituna</p>
-        					<div>
-        						<img src="themes/VirtuKuta/images/font_f1.png" class="imgfont_f1">
-        						<img src="themes/VirtuKuta/images/font_f2.png" class="imgfont_f2">
-        			    </div>
-        		    </div>
-				  </div>
-				  
-      		    </div>
-				<div id="fourth-part" class="frontp3">
-      				      <img src="themes/VirtuKuta/images/highscore_top_fi.png" id="imgfont_a4">
-      			  </div>
-            </div>{# /.layout-content #}
-      	  </div>
-		  {% if page.footer %}
-			<footer role="contentinfo">
-			  {{ page.footer }}
-			</footer>
-		  {% endif %}
-      </div>
+    <div class="layout-content-tt">
+      <div style="background-color: white; width: 400px; position: relative; left: 200px;"> {# just to try it out#}
+	{{ page.content }}
+	</div>
+    </div>{# /.layout-content #}
+	
     {% if page.sidebar_first %}
       <aside class="layout-sidebar-first" role="complementary">
         {{ page.sidebar_first }}
@@ -107,11 +72,5 @@
     {% endif %}
 
   </main>
-
-  
-
-
-
-</div>{# /.layout-container #}
-
 {% include directory ~ '/partials/footer.html.twig' %}
+</div>{# /.layout-container #}
