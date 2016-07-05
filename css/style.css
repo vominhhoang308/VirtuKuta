@@ -1,3 +1,6 @@
+
+/* body layout*/
+
 .layout-content-m{
 	/*background-image:url('../images/frontpage_bg.png');
 	background-repeat: no-repeat;*/
@@ -8,7 +11,7 @@
 	/*padding-top:400px;*/
 	/*background:url('../images/frontpage_bg.png') no-repeat,  linear-gradient(#00a4f7, #abdcf4, #BDE1F6);*/
 	background: url('../images/frontpage_bg.png') no-repeat, #80CEF9;
-	background-size: 100% auto;	
+	background-size: 100% auto;
 }
 
 .main-header{
@@ -18,23 +21,23 @@
 	margin-right:auto;
 }
 
-.my-content{	
+.my-content{
 	margin-left:15%;
 	margin-top: 20px;
 }
 
-.my-content:after { 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
+.my-content:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
    clear: both;
 }
 
 .logo{
-	img{		
-		max-width:100%;		
-	}	
+	img{
+		max-width:100%;
+	}
 }
 
 #firt-part{
@@ -50,7 +53,7 @@
 #firt-part p{
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	color: #0093D3;
-	font-size: 11pt;	
+	font-size: 11pt;
 	font-weight: bold;
 }
 
@@ -70,9 +73,17 @@
 
 #second-part{
 	margin: 32px 0 14px 0;
+	width:455px;
+	height:256px;
+}
+
+#second-part iframe{
+	width:100%;
+	height:100%;
 }
 
 #third-part{
+	margin-top: 175px;
 	background: white;
 	width: 459px;
 	height: 225.59px;
@@ -84,7 +95,7 @@
 #third-part p{
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	color: #0093D3;
-	font-size: 11pt;	
+	font-size: 11pt;
 	font-weight: bold;
 }
 
@@ -130,7 +141,7 @@
 
 /*dymic navbar created by Drupal*/
 /*
-.main-navigation{	
+.main-navigation{
 }
 
 #block-viku-main-menu{
@@ -162,7 +173,7 @@
 	border-style: solid;
     border-color: #B7CCD2;
 	border-width: 0.5px;
-}	
+}
 
 #block-viku-main-menu >ul :first-child >a{
 	color: #C60048;
@@ -275,7 +286,7 @@
 
 /* Media Queries -------------------- */
 
-@media (min-width: 1680px) {
+@media (min-width: 1600px) {
   .layout-content-m, #footer-bg {
     width:82%;
   }
@@ -301,12 +312,12 @@
 
 @media (max-width: 480px) {
   .layout-content-m {
-    
+
   }
 }
 
 @media (min-width: 481px) and (max-width: 700px) {
   .layout-content-m {
-    
+
   }
 }
