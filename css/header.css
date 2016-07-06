@@ -134,7 +134,7 @@
 	font-weight: bold;
 }
 #nav3 a{
-	color: #2E89FD;
+	color: #2E2EFC;
 	font-weight: bold;
 }
 #nav4 a{
@@ -143,7 +143,34 @@
 }
 
 /* second nav style*/
+.nav2-s-i{
+	float:left;
+	height: 10px;
+	width: 12px;
+	background-color: #c700ba;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: -12px;
+}
 
 /* third nav style*/
+.nav3-s-i{
+	float:left;
+	height: 10px;
+	width: 12px;
+	background-color: #2E2EFC;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: -12px;
+}
 
 /* fourth nav style*/
+.nav4-s-i{
+	float:left;
+	height: 10px;
+	width: 12px;
+	background-color: #F0BC15;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: -12px;
+}
