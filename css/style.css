@@ -27,10 +27,8 @@
 }
 
 .group:after {
-   content: ".";
-   visibility: hidden;
+   content: "";
    display: block;
-   height: 0;
    clear: both;
 }
 
