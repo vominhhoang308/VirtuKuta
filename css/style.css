@@ -118,13 +118,24 @@
 	margin-left: 40%;
 	margin-top: 300px;
 }
-/*
-#text {
-	position:absolute;
-	z-index: 100;
-	margin: 0 0 80px 700px;
+
+.icon{
+ content: "";
+ display:block;
+ width:228px;
+ height: 53px;
+ background: url('../images/play_button.png') no-repeat;
+ background-size: 100%;
 }
-*/
+
+#text {
+	padding-top: 5px;
+	text-align: center;
+ vertical-align: middle;
+	color: white;
+	font-size: 30px;
+}
+
 #fourth-part{
 	float:left;
 	margin-left: 15px;
