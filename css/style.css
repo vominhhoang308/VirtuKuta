@@ -26,7 +26,7 @@
 	margin-top: 20px;
 }
 
-.my-content:after {
+.group:after {
    content: ".";
    visibility: hidden;
    display: block;
@@ -205,6 +205,11 @@
 
 .main-navigation {
 	list-style: none;
+	float : left;
+	max-height: 105px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 20px;
 }
 
 #virtuaalikunta-logo-fi{
