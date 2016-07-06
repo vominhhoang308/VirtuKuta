@@ -1,6 +1,10 @@
 
 /* body layout*/
 
+.fll{
+	float: left;
+}
+
 .layout-content-m{
 	/*background-image:url('../images/frontpage_bg.png');
 	background-repeat: no-repeat;*/
@@ -81,7 +85,6 @@
 }
 
 #third-part{
-	margin-top: 175px;
 	background: white;
 	width: 459px;
 	height: 225.59px;
@@ -134,6 +137,8 @@
 }
 
 #left-part{
+	width: 459px;
+	display:inline-block;
 	float:left;
 }
 
@@ -302,7 +307,7 @@
 }
 
 @media (max-width: 1110px) {
-  #fourth-part {
+  #fourth-part, #virtuaalikunta-logo-fi {
     display:none;
   }
 }

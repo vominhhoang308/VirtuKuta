@@ -45,6 +45,8 @@
  * @ingroup themeable
  */
 #}
+
+<div class="main-wrapper">
 <div class="container">
 {% include directory ~ '/partials/header.html.twig' %}
 </div>
@@ -61,19 +63,19 @@
       		<div class="my-content group">
       		  <div class="row">
 
-				  <div id="left-part">
-      			  <div id="firt-part" class="frontp1 col-md-3">
-        				<p>Lykkylä-peli on palkittu kunniakirjalla Suomen eOppimiskeskus ry:n kilpailussa oppimispeleille.​ Pelaa verkossa tai lataa peli maksutta tablettiisi!</p>
-        				<div id="first-part-img">
+				  <div id="left-part" class="group">
+      			  <div id="firt-part" class="frontp1 col-md-3 fll">
+        				<p class="fll">Lykkylä-peli on palkittu kunniakirjalla Suomen eOppimiskeskus ry:n kilpailussa oppimispeleille.​ Pelaa verkossa tai lataa peli maksutta tablettiisi!</p>
+        				<div id="first-part-img" class="fll">
         					<img src="themes/VirtuKuta/images/apple_s.png" class="imgfont_a">
         					<img src="themes/VirtuKuta/images/google_s.png" class="imgfont_g">
         				</div>
       			  </div>
-      			  <div id="second-part" class="frontp2">
+      			  <div id="second-part" class="frontp2 fll">
       				      <iframe src="//www.youtube.com/embed/gqn4_YUyjXA" frameborder="0" allowfullscreen></iframe>
       			  </div>
-      			  <div id="third-part" class="frontp3">
-        				<div class="third-part-c">
+      			  <div id="third-part" class="frontp3 fll">
+        				<div class="third-part-c fll">
         					<p>Tunne oma kuntasi - tilastotietoa visualisoituna</p>
         					<div>
         						<img src="themes/VirtuKuta/images/font_f1.png" class="imgfont_f1">
@@ -115,3 +117,4 @@
 </div>{# /.layout-container #}
 
 {% include directory ~ '/partials/footer.html.twig' %}
+</div>
