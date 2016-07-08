@@ -70,7 +70,11 @@
 	margin-bottom: 0;
 	padding-bottom: 20px;
 }
-
+/*Override navbar-inverse bootstrap class*/
+.main-navigation >nav{
+		background-color: white;
+		border-color: white;
+}
 #virtuaalikunta-logo-fi{
     float: left;
     background: url('../images/logo.PNG');
