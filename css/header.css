@@ -175,3 +175,11 @@
 	margin-left: -12px;
 }
 }
+
+.main-header{
+	height: 105px;
+	/*width: 940px;*/
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+}
