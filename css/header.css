@@ -61,7 +61,7 @@
 */
 
 /* static navbar */
-
+@media (min-width: 768px){
 .main-navigation {
 	list-style: none;
 	float : left;
@@ -173,4 +173,5 @@
 	position: absolute;
 	margin-top: 10px;
 	margin-left: -12px;
+}
 }
