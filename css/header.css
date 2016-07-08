@@ -108,7 +108,8 @@
 .main-navigation ul li ul{
   margin-top: 0px;
 }
-.main-navigation ul li ul a:hover { background: #D9D9D9;}
+#myNavbar ul li ul li{width: 100%;}
+#myNavbar ul li ul li:hover { background: #D9D9D9;}
 
 .main-navigation ul li ul a{color:black !important;}
 /* underline styling of nav categories*/
