@@ -65,16 +65,6 @@
 	margin: 40px 0 0 0;
 }
 
-.imgfont_a{
-	float:left;
-	margin:6px;
-	padding-top: 8px;
-}
-
-.imgfont_g{
-	margin:6px;
-}
-
 #second-part{
 	margin: 32px 0 14px 0;
 	width:455px;
@@ -219,6 +209,16 @@
 			background-repeat: no-repeat;*/
 			height: 1183px;
 		}
+	}
+	.imgfont_a{
+		float:left;
+		margin:6px;
+		padding-top: 8px;
+	}
+
+	.imgfont_g{
+		margin:6px;
+	}
 }
 
 @media (min-width: 481px) and (max-width: 700px) {
