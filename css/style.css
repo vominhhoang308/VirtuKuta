@@ -9,7 +9,7 @@
 	/*background-image:url('../images/frontpage_bg.png');
 	background-repeat: no-repeat;*/
 	max-width: 1356px;
-	height: 1183px;
+	height: 100%;
 	/*background-size: 1356px 1183px;*/
 	margin: auto;
 	/*padding-top:400px;*/
@@ -28,6 +28,7 @@
 .my-content{
 	margin-left:15%;
 	margin-top: 20px;
+	height: 100%;
 }
 
 .group:after {
@@ -86,8 +87,8 @@
 
 #third-part{
 	background: white;
-	width: 459px;
-	height: 225.59px;
+	width: 100%;
+	height: 100%;
 	border-style: solid;
     border-width: 5px 0 0 0;
 	border-color: #c700ba;
@@ -200,7 +201,7 @@
 	}
 }
 
-@media (min-width: 481px) and (max-width: 700px) {
+@media (min-width: 481px){
   .layout-content-m {
 
   }
@@ -208,4 +209,17 @@
 		width: 459px;
 		height: 195px;
 	}
+	#third-part{
+		width: 459px;
+		height: 225.59px;
+
+		.layout-content-m{
+			/*background-image:url('../images/frontpage_bg.png');
+			background-repeat: no-repeat;*/
+			height: 1183px;
+		}
+}
+
+@media (min-width: 481px) and (max-width: 700px) {
+
 }
