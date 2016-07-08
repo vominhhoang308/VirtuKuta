@@ -190,6 +190,11 @@
 	#third-part{
 		width:100%;
 	}
+	#first-part-img img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 @media (min-width: 481px){
@@ -210,6 +215,9 @@
 			height: 1183px;
 		}
 	}
+	#first-part-img{
+		float: left;
+	}
 	.imgfont_a{
 		float:left;
 		margin:6px;
@@ -218,6 +226,7 @@
 
 	.imgfont_g{
 		margin:6px;
+		float:left;
 	}
 }
 
