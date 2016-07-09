@@ -189,7 +189,9 @@
 
 @media (min-width: 481px){
   .layout-content-m {
-
+		/*Overwrite padding container class*/
+		padding-left: 0;
+		padding-right: 0;
   }
 	#first-part{
 		width: 459px;

@@ -1,7 +1,7 @@
 /*footer stuff*/
 
 
-
+@media (min-width: 768px){
 #footer-bg
 {
     width: 100%;
@@ -222,4 +222,5 @@
     font-weight: lighter;
     font-size: 11px;
     color: #2f4270;
+}
 }

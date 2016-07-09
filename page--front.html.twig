@@ -96,6 +96,7 @@
 			  {{ page.footer }}
 			</footer>
 		  {% endif %}
+      {% include directory ~ '/partials/footer.html.twig' %}
       </div>
     {% if page.sidebar_first %}
       <aside class="layout-sidebar-first" role="complementary">
@@ -111,11 +112,6 @@
 
   </main>
 
-
-
-
-
 </div>{# /.layout-container #}
 
-{#{% include directory ~ '/partials/footer.html.twig' %}#}
 </div>
