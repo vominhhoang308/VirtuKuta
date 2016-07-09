@@ -16,6 +16,9 @@
 	/*background:url('../images/frontpage_bg.png') no-repeat,  linear-gradient(#00a4f7, #abdcf4, #BDE1F6);*/
 	background: url('../images/frontpage_bg.png') no-repeat, #80CEF9;
 	background-size: 100% auto;
+	/*Overwrite container class*/
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .my-content{

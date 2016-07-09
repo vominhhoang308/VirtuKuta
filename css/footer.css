@@ -1,6 +1,15 @@
 /*footer stuff*/
+#footer-bg {
+    border-style: solid;
+    border-width: 20px 0 0 0;
+    border-color: #cddfe2;
+    padding-top: 10px;
+}
 
-
+@media (min-width: 481px){
+#footer-bg{
+  padding-left:5%;
+}
 @media (min-width: 768px){
 #footer-bg
 {
@@ -12,6 +21,7 @@
     margin-right: auto;
     padding-left: 0px;
     margin-top: 0px;
+    border-width:0;
 }
 
 #footer-bg-white {
@@ -22,8 +32,6 @@
     padding-left: 198px;
     margin-bottom: 25px;
 }
-
-
 
 .footer-left-links
 {
