@@ -63,6 +63,7 @@
 /* static navbar */
 @media (min-width: 768px){
 .main-navigation {
+	margin-left: 60px;
 	list-style: none;
 	float : left;
 	max-height: 105px;

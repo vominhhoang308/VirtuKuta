@@ -6,6 +6,7 @@ global-css:
       css/header.css: {}
       css/footer.css: {}
       css/testct.css: {}
+	  css/grid.css: {}
 
 global-js:
   js:
