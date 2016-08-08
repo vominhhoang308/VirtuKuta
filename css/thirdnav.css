@@ -1,7 +1,7 @@
 /* styling for third navigation dropdown */
 
 .thirdnav-p-wrapper{
-	
+
 }
 
 #thirdnavnav{
@@ -11,6 +11,7 @@
 	display:none;
 	background-color: #0000C3;
 	width:calc(75% + 10px);
+	height:3rem;
 }
 
 #thirdnavnav a{
@@ -21,7 +22,7 @@
 .nav-3-left h1,h2,h3{
 	margin-left: 2%;
 	margin-right: 2%;
-	color: #0072bc;	
+	color: #0072bc;
 }
 
 .nav-3-left h1{
@@ -30,7 +31,7 @@
 	font-size: 30px;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	
+
 }
 
 .nav-3-left h3{
@@ -40,7 +41,7 @@
 	-webkit-margin-start: 0px;
 	-webkit-margin-end: 0px;
 	font-weight: bold;
-	margin-left: 2%	
+	margin-left: 2%
 }
 
 .nav-3-left h2{
@@ -51,7 +52,7 @@
 	-webkit-margin-end: 0px;
 	font-weight: bold;
 	margin-left: 2%;
-	color: #CA0078	
+	color: #CA0078
 }
 
 .nav-3-left p{
@@ -65,11 +66,15 @@
 .nav-3-left ul li{
 	margin-bottom: 2%;
 }
+.nav-3-right h3{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
 @media (min-width: 680px) {
 	.nav-3-left{
 		width:55%;
 		background:white;
-		display:inline-block; 
+		display:inline-block;
 		text-align:left;
 	}
 	.nav-3-right{
@@ -79,23 +84,22 @@
 		text-align:left;
 		vertical-align: top;
 	}
-	
+
 	.third-nav-text {
 		text-align:center;
-		margin-bottom:10px;	
+		margin-bottom:10px;
 		min-height:50vh;
 	}
 
 	.nav-3-wrapper{
 		max-width:1386px;
-		
+
 	}
 
+}
+
+@media (min-width: 1200px) {
 	#thirdnavnav{
 		display:block;
 	}
-}	
-
-@media (min-width: 1300px) {
-	
 }
