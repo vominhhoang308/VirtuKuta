@@ -10,13 +10,18 @@ jQuery(document).ready(function($){
     var anchor = $("#myNavbar>ul >li >a"),
         current = window.location.pathname.split('/')[2];
 				//console.log(current);
+		var a = [];
   	for (var i = 0; i < anchor.length; i++) {
 			 	b = anchor[i].href.split('/')[4];
-				//console.log(b);
-				if(b == current) {
+				a.push(b);
+				//console.log(a);
+				if(a[a.length-1] == current) {
           anchor[i].className = "active";
-					anchor[0].className = "active1";
-        }
+					break;
+				}
+				if ((a[a.length-1] != current)&& a.length==4){
+					anchor[0].className = "active";
+				}
     }
 });
 

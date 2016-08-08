@@ -70,10 +70,10 @@
 	margin-right:auto;
 }
 
-#nav1 a.active { color: black; background-color: red;}
-#nav2 a.active { color: black; background-color: red;}
-#nav3 a.active { color: black; background-color: red;}
-#nav4 a.active { color: black; background-color: red;}
+#nav1 a.active { color: white; background-color: #C60048;}
+#nav2 a.active { color: white; background-color: #c700ba;}
+#nav3 a.active { color: white; background-color: #2E2EFC;}
+#nav4 a.active { color: white; background-color: #F0BC15;}
 
 @media (min-width: 768px){
 .main-navigation {
