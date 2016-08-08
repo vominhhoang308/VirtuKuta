@@ -7,16 +7,19 @@
 #thirdnavnav{
 	margin-left:auto;
 	margin-right:auto;
-	margin-bottom: 15px;
 	display:none;
 	background-color: #0000C3;
 	width:calc(75% + 10px);
-	height:3rem;
+	height:3.1rem;
 }
 
 #thirdnavnav a{
 	color:white;
 	margin-left: 4%;
+}
+
+.nav-3-left, .nav-3-right{
+		margin-top: 2rem;
 }
 
 .nav-3-left h1,h2,h3{
@@ -80,7 +83,9 @@
 	.nav-3-right{
 		width:20%;
 		background:white;
-		display:inline-block; margin:2px;padding:10px;
+		display:inline-block;
+		margin-left:2px;
+		padding:10px;
 		text-align:left;
 		vertical-align: top;
 	}
@@ -101,5 +106,12 @@
 @media (min-width: 1200px) {
 	#thirdnavnav{
 		display:block;
+	}
+	#thirdnavnav a{
+		display:inline-block;
+		margin-top: 0.8rem;
+	}
+	.container {
+	    width: 100%;
 	}
 }
