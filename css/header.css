@@ -61,6 +61,20 @@
 */
 
 /* static navbar */
+
+.main-header{
+	height: 105px;
+	/*width: 940px;*/
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#nav1 a.active { color: black; background-color: red;}
+#nav2 a.active { color: black; background-color: red;}
+#nav3 a.active { color: black; background-color: red;}
+#nav4 a.active { color: black; background-color: red;}
+
 @media (min-width: 768px){
 .main-navigation {
 	margin-left: 60px;
@@ -183,12 +197,4 @@
 	margin-top: 10px;
 	margin-left: -12px;
 }
-}
-
-.main-header{
-	height: 105px;
-	/*width: 940px;*/
-	width: 100%;
-	margin-left:auto;
-	margin-right:auto;
 }
