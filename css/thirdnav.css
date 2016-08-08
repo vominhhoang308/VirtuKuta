@@ -1,0 +1,101 @@
+/* styling for third navigation dropdown */
+
+.thirdnav-p-wrapper{
+	
+}
+
+#thirdnavnav{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 15px;
+	display:none;
+	background-color: #0000C3;
+	width:calc(75% + 10px);
+}
+
+#thirdnavnav a{
+	color:white;
+	margin-left: 4%;
+}
+
+.nav-3-left h1,h2,h3{
+	margin-left: 2%;
+	margin-right: 2%;
+	color: #0072bc;	
+}
+
+.nav-3-left h1{
+	font-family: MyHelve:tica, Helvetica, Arial, Sans-serif;
+	font-weight: lighter;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+}
+
+.nav-3-left h3{
+	font-size: 1.17em;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+	margin-left: 2%	
+}
+
+.nav-3-left h2{
+	font-size: 150%;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+	margin-left: 2%;
+	color: #CA0078	
+}
+
+.nav-3-left p{
+	margin-left: 10%;
+}
+
+.nav-3-left ul{
+	margin-left: 10%;
+}
+
+.nav-3-left ul li{
+	margin-bottom: 2%;
+}
+@media (min-width: 680px) {
+	.nav-3-left{
+		width:55%;
+		background:white;
+		display:inline-block; 
+		text-align:left;
+	}
+	.nav-3-right{
+		width:20%;
+		background:white;
+		display:inline-block; margin:2px;padding:10px;
+		text-align:left;
+		vertical-align: top;
+	}
+	
+	.third-nav-text {
+		text-align:center;
+		margin-bottom:10px;	
+		min-height:50vh;
+	}
+
+	.nav-3-wrapper{
+		max-width:1386px;
+		
+	}
+
+	#thirdnavnav{
+		display:block;
+	}
+}	
+
+@media (min-width: 1300px) {
+	
+}

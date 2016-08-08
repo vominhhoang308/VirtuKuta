@@ -1,7 +1,7 @@
 {#
 /**
  * @file
- * Theme override to display a single page.
+ * Default theme implementation to display a single page.
  *
  * The doctype, html, head and body tags are not in this template. Instead they
  * can be found in the html.html.twig template in this directory.
@@ -41,47 +41,36 @@
  *
  * @see template_preprocess_page()
  * @see html.html.twig
+ *
+ * @ingroup themeable
  */
 #}
 
-{% include directory ~ '/partials/header.html.twig' %}
+<div class="container nav-3-wrapper">
+<div id="3rd-p-wrapper" style="background: url('{{ file_url(node.field_backgroundpicture.entity.fileuri) }}') no-repeat, #80CEF9; -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
 
-<div class="layout-container">
+{# style="background: url('{{ file_url(node.field_backgroundpicture.entity.fileuri) }}') no-repeat, #80CEF9;"> #}
 
-  {{ page.primary_menu }}
-  {{ page.secondary_menu }}
-
-  {{ page.breadcrumb }}
-
-  {{ page.highlighted }}
-
-  {{ page.help }}
-
-  <main role="main">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-
-    <div class="layout-content">
-      {{ page.content }}
-    </div>{# /.layout-content #}
-
-    {% if page.sidebar_first %}
-      <aside class="layout-sidebar-first" role="complementary">
-        {{ page.sidebar_first }}
-      </aside>
-    {% endif %}
-
-    {% if page.sidebar_second %}
-      <aside class="layout-sidebar-second" role="complementary">
-        {{ page.sidebar_second }}
-      </aside>
-    {% endif %}
-
-  </main>
-
-  {% if page.footer %}
-    <footer role="contentinfo">
-      {{ page.footer }}
-    </footer>
-  {% endif %}
-{% include directory ~ '/partials/footer.html.twig' %}
-</div>{# /.layout-container #}
+  <article{{ attributes }}>
+ <meta charset=UTF-8" />
+  <div{{ content_attributes }}>
+  
+	<div class="thirdnav-p-wrapper">
+		<div id="thirdnavnav">
+			<a href="/tietoa">Tietoa ja tehtäviä</a>
+			<a href="/mikaonkunta">Mikä on kunta?</a>
+			<a href="/kuntalaisenabc">Kuntalaisen ABC</a>
+			<a href="/kunnantalous">Kunnan talous</a>
+			<a href="/kuntientehtavat">Kuntien tehtävät</a>
+			<a href="/kuntaliitokset1">Kuntaliitokset</a>
+		</div>
+		<div class="third-nav-text"><div class="nav-3-content">{{ content.body }}</div></div>
+	</div>
+  </div>
+</article>
+</div>
+</div>{# /.layout-container #} 
+{#{% include directory ~ '/partials/footer.html.twig' %}#}
