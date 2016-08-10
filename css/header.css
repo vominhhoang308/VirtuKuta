@@ -78,6 +78,7 @@
 @media (min-width: 768px){
 
 	/* for the arrow-down in navbar */
+	#nav1 a.active, #nav2 a.active, #nav3 a.active, #nav4 a.active {height: 30px;}
 	#nav1 a.active:after, #nav2 a.active:after, #nav3 a.active:after, #nav4 a.active:after{
 		top: 100%;
 		left: 50%;
