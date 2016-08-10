@@ -76,6 +76,43 @@
 #nav4 a.active { color: white; background-color: #F0BC15;}
 
 @media (min-width: 768px){
+
+	/* for the arrow-down in navbar */
+	#nav1 a.active:after, #nav2 a.active:after, #nav3 a.active:after, #nav4 a.active:after{
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+	}
+	#nav1 a.active:after {
+		border-color: rgba(136, 183, 213, 0);
+		border-top-color: #C60048;
+		border-width: 5px;
+		margin-left: -5px;
+	}
+	#nav2 a.active:after {
+		border-color: rgba(136, 183, 213, 0);
+		border-top-color: #c700ba;
+		border-width: 5px;
+		margin-left: -5px;
+	}
+	#nav3 a.active:after {
+		border-color: rgba(136, 183, 213, 0);
+		border-top-color: #2E2EFC;
+		border-width: 5px;
+		margin-left: -5px;
+	}
+	#nav4 a.active:after {
+		border-color: rgba(136, 183, 213, 0);
+		border-top-color: #F0BC15;
+		border-width: 5px;
+		margin-left: -5px;
+	}
+
 .main-navigation {
 	margin-left: 60px;
 	list-style: none;
