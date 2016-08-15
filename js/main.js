@@ -61,15 +61,18 @@ var data = [
 jQuery(document).ready(function($){
   $(data).each(function(index) {
       var myDivs = '<div class="highscore-row">';
-      var b = "";
+      var b = "", smallDif="";
       c = data[index].difficultyLevel;
       d = data[index].scoreDate;
       e = d.toString(10).split('').map(Number);
       mconstruct = e[6].toString()+e[7].toString()+'.'+e[4]+e[5]+'.'+e[0]+e[1]+e[2]+e[3];
-      myDivs += '<div class=""><img src="themes/VirtuKuta/images/highscore_'+(parseInt(index)+1).toString()+'.png"></div>';
+
+      myDivs += '<div class="highscore-img1"><img src="themes/VirtuKuta/images/highscore_'+(parseInt(index)+1).toString()+'.png"></div>';
       myDivs += '<div class="highscore-name">'+data[index].playerName+'</div>';
+      myDivs += '<div class="highscore-newline"></div>';
       myDivs += '<div class="highscore-score">'+data[index].score+'</div>';
       myDivs += '<div class="highscore-municipality">'+data[index].fin+'</div>';
+      myDivs += '<div class="highscore-newline"></div>';
       var currentLan = window.location.pathname.split('/')[2];
       /*if(currentLan =="fi"){
 
@@ -78,10 +81,13 @@ jQuery(document).ready(function($){
       }*/
       if(c == 1){
         b= "Helppo";
+        smallDif = "green";
       }else if (c == 2) {
         b= "Keskitaso";
+        smallDif = "yellow";
       }else if(c == 3){
         b= "Vaikea";
+        smallDif = "red";
       }
       /*if(c == 1){
         b= "Lätt";
@@ -90,8 +96,10 @@ jQuery(document).ready(function($){
       }else if(c == 3){
         b= "Svår";
       }*/
-      myDivs += '<div class="highscore-difficulty">'+b+'</div>';
+      myDivs += '<div class="highscore-difficulty"><img src="themes/VirtuKuta/images/'+smallDif+'_bullet.png">'+b+'</div>';
       myDivs += '<div class="highscore-date">'+mconstruct+'</div>';
+      myDivs += '<div class="highscore-newline"></div>';
+      myDivs += '<div class="highscore-newline1"></div>';
       myDivs += '</div>';
       console.log(myDivs);
       $(myDivs).appendTo('#score_fetching');

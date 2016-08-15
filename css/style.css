@@ -233,10 +233,53 @@
 	}
 }
 
-@media (min-width: 481px){
+@media (min-width: 768px){
 	#playbutton_front{
 		/*postion:absolute;*/
 		margin-top: 300px;
+	}
+
+/* styling of highscore part */
+	#score_fetching{
+		margin-left: 2rem;
+		margin-right: 1rem;
+	}
+	/*.highscore-row div{
+		display:inline-block;
+	}*/
+	.highscore-img1{
+		margin-top: 5px;
+		display: inline-block;
+	}
+	.highscore-name{
+		margin-left: 2rem;
+		display: inline-block;
+	}
+	.highscore-score{
+		display: inline-block;
+	}
+	.highscore-municipality{
+		display: inline-block;
+		float:right;
+	}
+	.highscore-difficulty{
+		display: inline-block;
+		margin-bottom: 0.3rem;
+	}
+	.highscore-difficulty img{
+		margin-right: 1rem;
+	}
+	.highscore-date{
+		display: inline-block;
+		float:right;
+	}
+	.highscore-newline{
+		display: block;
+	}
+	.highscore-newline1{
+		border-style: solid;
+	  border-width: 2px 0 0 0;
+		border-color: #FFA500
 	}
 }
 
