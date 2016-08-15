@@ -75,9 +75,9 @@ jQuery(document).ready(function($){
       myDivs += '<div class="highscore-newline"></div>';
       var currentLan = window.location.pathname.split('/')[2];
       /*if(currentLan =="fi"){
-
+        difficulty in b= "Helppo/Keskitaso/Vaikea"; and mmuni = data[index].fin
       }else if(currentLan="sv"){
-
+        difficulty in b= "Lätt/Medelsvår/Svår"; and mmuni = data[index].swe
       }*/
       if(c == 1){
         b= "Helppo";
