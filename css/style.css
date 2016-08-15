@@ -78,6 +78,7 @@
 	border-style: solid;
     border-width: 5px 0 0 0;
 	border-color: #c700ba;
+	margin-bottom: 1.5rem;
 }
 
 #third-part p{
@@ -117,12 +118,10 @@
 
 #fourth-part{
 	float:left;
-	margin-left: 15px;
+	width:100%;
 	background-color:white;
-	width: 222px;
-	height: 420px;
 	border-style: solid;
-    border-width: 5px 0 0 0;
+  border-width: 5px 0 0 0;
 	border-color: #FFA500
 }
 
@@ -131,6 +130,50 @@
 	display:inline-block;
 	float:left;
 }
+
+/* styling of highscore part */
+	#score_fetching{
+		margin-left: 2rem;
+		margin-right: 1rem;
+	}
+	/*.highscore-row div{
+		display:inline-block;
+	}*/
+	.highscore-img1{
+		margin-top: 5px;
+		display: inline-block;
+	}
+	.highscore-name{
+		margin-left: 2rem;
+		display: inline-block;
+	}
+	.highscore-score{
+		display: inline-block;
+	}
+	.highscore-municipality{
+		display: inline-block;
+		float:right;
+	}
+	.highscore-difficulty{
+		display: inline-block;
+		margin-bottom: 0.3rem;
+	}
+	.highscore-difficulty img{
+		margin-right: 1rem;
+	}
+	.highscore-date{
+		display: inline-block;
+		float:right;
+	}
+	.highscore-newline{
+		display: block;
+	}
+	.highscore-newline1{
+		border-style: solid;
+	  border-width: 2px 0 0 0;
+		border-color: #FFA500
+	}
+
 
 /* Media Queries -------------------- */
 
@@ -147,7 +190,7 @@
 }
 
 @media (max-width: 1110px) {
-  #fourth-part, #virtuaalikunta-logo-fi {
+  #virtuaalikunta-logo-fi {
     display:none;
   }
 	#playbutton_front{
@@ -207,8 +250,12 @@
 		.layout-content-m{
 			/*background-image:url('../images/frontpage_bg.png');
 			background-repeat: no-repeat;*/
-			height: 1183px;
+			min-height: 1183px;
 		}
+	}
+	#fourth-part{
+		width: 459px;
+		padding-right: 9rem;
 	}
 	#first-part-img{
 		float: left;
@@ -239,48 +286,13 @@
 		margin-top: 300px;
 	}
 
-/* styling of highscore part */
-	#score_fetching{
-		margin-left: 2rem;
-		margin-right: 1rem;
+	#fourth-part{
+		padding-right: 0rem;
+		margin-left: 15px;
+		width: 222px;
+		min-height: 420px;
 	}
-	/*.highscore-row div{
-		display:inline-block;
-	}*/
-	.highscore-img1{
-		margin-top: 5px;
-		display: inline-block;
-	}
-	.highscore-name{
-		margin-left: 2rem;
-		display: inline-block;
-	}
-	.highscore-score{
-		display: inline-block;
-	}
-	.highscore-municipality{
-		display: inline-block;
-		float:right;
-	}
-	.highscore-difficulty{
-		display: inline-block;
-		margin-bottom: 0.3rem;
-	}
-	.highscore-difficulty img{
-		margin-right: 1rem;
-	}
-	.highscore-date{
-		display: inline-block;
-		float:right;
-	}
-	.highscore-newline{
-		display: block;
-	}
-	.highscore-newline1{
-		border-style: solid;
-	  border-width: 2px 0 0 0;
-		border-color: #FFA500
-	}
+
 }
 
 @media (min-width: 481px) and (max-width: 700px) {

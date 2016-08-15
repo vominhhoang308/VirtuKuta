@@ -55,7 +55,27 @@ var data = [
             municipalityId: 97,
             fin: "Kerava",
             swe: "Kervo"
-            }
+            },
+            {
+            id: 3429,
+            playerName: "markus 04",
+            scoreDate: 20160815,
+            score: 1385,
+            difficultyLevel: 1,
+            municipalityId: 314,
+            fin: "Vantaa",
+            swe: "Vanda"
+            },
+            {
+            id: 3427,
+            playerName: "Dudet",
+            scoreDate: 20160810,
+            score: 1230,
+            difficultyLevel: 2,
+            municipalityId: 97,
+            fin: "Kerava",
+            swe: "Kervo"
+            },
           ];
 
 jQuery(document).ready(function($){
