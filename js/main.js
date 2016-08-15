@@ -25,6 +25,80 @@ jQuery(document).ready(function($){
     }
 });
 
+var data = [
+            {
+            id: 3429,
+            playerName: "markus 04",
+            scoreDate: 20160815,
+            score: 1385,
+            difficultyLevel: 1,
+            municipalityId: 314,
+            fin: "Vantaa",
+            swe: "Vanda"
+            },
+            {
+            id: 3427,
+            playerName: "Dudet",
+            scoreDate: 20160810,
+            score: 1230,
+            difficultyLevel: 2,
+            municipalityId: 97,
+            fin: "Kerava",
+            swe: "Kervo"
+            },
+            {
+            id: 3428,
+            playerName: "Dudet",
+            scoreDate: 20160810,
+            score: 1223,
+            difficultyLevel: 3,
+            municipalityId: 97,
+            fin: "Kerava",
+            swe: "Kervo"
+            }
+          ];
+
+jQuery(document).ready(function($){
+  $(data).each(function(index) {
+      var myDivs = '<div class="highscore-row">';
+      var b = "";
+      c = data[index].difficultyLevel;
+      d = data[index].scoreDate;
+      e = d.toString(10).split('').map(Number);
+      mconstruct = e[6].toString()+e[7].toString()+'.'+e[4]+e[5]+'.'+e[0]+e[1]+e[2]+e[3];
+      myDivs += '<div class=""><img src="themes/VirtuKuta/images/highscore_'+(parseInt(index)+1).toString()+'.png"></div>';
+      myDivs += '<div class="highscore-name">'+data[index].playerName+'</div>';
+      myDivs += '<div class="highscore-score">'+data[index].score+'</div>';
+      myDivs += '<div class="highscore-municipality">'+data[index].fin+'</div>';
+      var currentLan = window.location.pathname.split('/')[2];
+      /*if(currentLan =="fi"){
+
+      }else if(currentLan="sv"){
+
+      }*/
+      if(c == 1){
+        b= "Helppo";
+      }else if (c == 2) {
+        b= "Keskitaso";
+      }else if(c == 3){
+        b= "Vaikea";
+      }
+      /*if(c == 1){
+        b= "Lätt";
+      }else if (c == 2) {
+        b= "Medelsvår";
+      }else if(c == 3){
+        b= "Svår";
+      }*/
+      myDivs += '<div class="highscore-difficulty">'+b+'</div>';
+      myDivs += '<div class="highscore-date">'+mconstruct+'</div>';
+      myDivs += '</div>';
+      console.log(myDivs);
+      $(myDivs).appendTo('#score_fetching');
+  });
+
+});
+
 jQuery(document).ready(function($){
 
 	//$('#block-viku-main-menu >ul :nth-child(2) >a').hover(function(){

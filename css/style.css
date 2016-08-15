@@ -94,7 +94,7 @@
 #playbutton_front{
 	/*postion:absolute;*/
 	margin-left: 40%;
-	margin-top: 300px;
+	margin-top: 150px;
 	margin-bottom: 30px;
 }
 
@@ -230,6 +230,13 @@
 	.imgfont_f2{
 		float:left;
 		margin:6px;
+	}
+}
+
+@media (min-width: 481px){
+	#playbutton_front{
+		/*postion:absolute;*/
+		margin-top: 300px;
 	}
 }
 
