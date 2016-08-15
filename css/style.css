@@ -190,9 +190,6 @@
 }
 
 @media (max-width: 1110px) {
-  #virtuaalikunta-logo-fi {
-    display:none;
-  }
 	#playbutton_front{
 		margin-left: 0;
 	}
