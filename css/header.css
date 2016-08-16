@@ -75,6 +75,18 @@
 #nav3 a.active { color: white; background-color: #2E2EFC;}
 #nav4 a.active { color: white; background-color: #F0BC15;}
 
+#language-links{display: block;}
+#language-links span{
+	background-color: #8CCCF8;
+	color:white;
+	padding: 0.5rem;
+	margin-right: 0.5rem;
+}
+#language-links a{
+	background-color: #e6e6e6;
+	color:#A0B2B8;
+	padding: 0.5rem;
+}
 @media (min-width: 768px){
 
 	/* for the arrow-down in navbar */
@@ -133,12 +145,14 @@
     background: url('../images/logo.PNG');
     background-repeat: no-repeat;
     margin-left: 0px;
-    margin-top: 55px;
+    margin-top: 50px;
     height: 30px;
     width: 270px;
 }
 
-.main-navigation ul{margin-top:60px; float:left;}
+.main-navigation ul{margin-top:35px; float:left;}
+
+#language-links{float: right;}
 
 .main-navigation li {
   display: block;
