@@ -119,7 +119,10 @@
 	.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     background-color: #C0C0C0;
 	}
-	.navbar-toggle{margin-top: 0;aria-expanded="true"}
+	.navbar-toggle{margin-top: 0;}
+	#nav2-s a, #nav3-s a,#nav4-s a{
+		color:white;
+	}
 }
 
 @media (min-width: 768px){
