@@ -121,13 +121,43 @@
  background-size: 100%;
 }
 
-#text {
+#playbutton_front p{
 	padding-top: 5px;
 	text-align: center;
-	vertical-align: middle;	
+	vertical-align: middle;
 	font-size: 30px;
 }
-
+#playbutton_front1{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1rem;
+}
+#playbutton_front1 p{
+	color: white;
+	padding-top: 5px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+}
+.icon1{
+ content: "";
+ display:block;
+ width:180px;
+ height: 36px;
+ background: url('../images/play_button.png') no-repeat;
+ background-size: 100%;
+}
+#fourth-part-footer >p{
+	font-family: MyHelvetica, Helvetica, Arial, sans-serif;
+  color: #c60048;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
 #text a {
 	color: white;
 }
@@ -215,7 +245,7 @@
 
 @media (max-width: 1110px) {
   #virtuaalikunta-logo-fi {
-    
+
   }
 	#playbutton_front{
 		margin-left: 0;
@@ -309,11 +339,11 @@
 		width: 222px;
 		min-height: 420px;
 	}
-	
+
 	#score_fetching{
 		margin-right: 1rem;
 	}
-	
+
 	.container{
 		width: 100%;
 	}

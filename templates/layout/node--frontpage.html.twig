@@ -59,9 +59,9 @@
 
       		<div class="my-content group">
             <div id="playbutton_front" class="icon">
-      			<p id="text">
+
 					<a href="/pelit">{{ content.field_fptext[2] }}</a>
-				</p>
+
             </div>
       		  <div class="row">
 				  <div id="left-part" class="group">
@@ -75,7 +75,7 @@
       			  <div id="second-part" class="frontp2 fll">
       				      {{ content.field_fpiframe}}
       			  </div>
-      			  
+
 				  <div id="third-part" class="frontp3 fll">
         				<div class="third-part-c fll">
         					<p> {{ content.field_fptext[1] }}</p>
@@ -90,13 +90,13 @@
 				<div id="fourth-part" class="frontp3">
       				      <div id="imgfont_a4"> {{ content.field_fpimghs }} </div>
 						  <div id="score_fetching"></div>
-						  <div>
-							<p>{{ content.field_fptext[3] }}</p>
-							<div id="playbutton_front" class="icon">
-								<p id="text">
-									<a href="/pelit">{{ content.field_fptext[2] }}</a>
-								</p>
-							</div>
+						  <div id="fourth-part-footer">
+  							{{ content.field_fptext[3] }}
+  							<div id="playbutton_front1" class="icon1">
+
+  									<a href="/pelit">{{ content.field_fptext[4] }}</a>
+
+  							</div>
 						  </div>
 				</div>
             </div>{# /.layout-content #}
@@ -106,8 +106,8 @@
 			  {{ page.footer }}
 			</footer>
 		  {% endif %}
-		  
-		  
+
+
       </div>
     {% if page.sidebar_first %}
       <aside class="layout-sidebar-first" role="complementary">
@@ -120,7 +120,7 @@
         {{ page.sidebar_second }}
       </aside>
     {% endif %}
-	
+
   </main>
 
 
