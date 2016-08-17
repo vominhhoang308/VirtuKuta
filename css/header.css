@@ -87,6 +87,41 @@
 	color:#A0B2B8;
 	padding: 0.5rem;
 }
+@media (max-width: 320px){
+	.navbar-header{
+		background-size:70% !important;
+	}
+}
+@media (max-width: 767px){
+	.navbar-header{
+		background: url('../images/logo.PNG') no-repeat;
+		background-position: 0.5rem 0;
+	}
+	.navbar-header{margin-top: 1rem;}
+	.grid-container{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.container{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.navbar-inverse{
+		background-color: white;
+		border-color: white;
+	}
+	.navbar-inverse .navbar-toggle .icon-bar {
+		background-color: black;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    background-color: #101010;
+	}
+	.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #C0C0C0;
+	}
+	.navbar-toggle{margin-top: 0;aria-expanded="true"}
+}
+
 @media (min-width: 768px){
 
 	/* for the arrow-down in navbar */

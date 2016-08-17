@@ -1,0 +1,16 @@
+global-css:
+  version: VERSION
+  css:
+    base:
+      css/style.css: {}
+      css/header.css: {}
+      css/footer.css: {}
+      css/testct.css: {}
+      css/grid.css: {}
+      css/thirdnav.css: {}
+
+global-js:
+  js:
+    js/main.js: {}
+  dependencies:
+    - core/jquery
