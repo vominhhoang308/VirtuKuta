@@ -20,6 +20,10 @@
 	padding-left: 0;
 	padding-right: 0;
 }
+/* for removing the background image the same with the body */
+#o-footer{
+	background-image:none;
+}
 
 .my-content{
 	margin-left:15%;
@@ -47,6 +51,7 @@
 	border-style: solid;
     border-width: 5px 0 0 0;
 	border-color: #c700ba;
+	margin-left: -8px;
 }
 
 #firt-part p{
@@ -54,22 +59,29 @@
 	color: #0093D3;
 	font-size: 11pt;
 	font-weight: bold;
+	margin-top: 3%;
 }
 
 #first-part-img{
-	margin: 40px 0 0 0;
+	margin: 2% 0 0 2%;
 }
 
 #second-part{
-	margin: 32px 0 14px 0;
+	margin: 32px 0 14px -8px;
 	width:455px;
-	height:256px;
+	height:230px;
 }
 
-#second-part iframe{
+#second-part  iframe{
 	width:100%;
 	height:100%;
 }
+
+.frontp2 div {
+	width: 100%;
+	height: 100%;
+}
+
 
 #third-part{
 	background: white;
@@ -78,7 +90,8 @@
 	border-style: solid;
     border-width: 5px 0 0 0;
 	border-color: #c700ba;
-	margin-bottom: 1.5rem;
+	margin-bottom: 2%;
+	margin-left: -8px;
 }
 
 #third-part p{
@@ -111,9 +124,12 @@
 #text {
 	padding-top: 5px;
 	text-align: center;
- vertical-align: middle;
-	color: white;
+	vertical-align: middle;	
 	font-size: 30px;
+}
+
+#text a {
+	color: white;
 }
 
 #fourth-part{
@@ -121,8 +137,16 @@
 	width:100%;
 	background-color:white;
 	border-style: solid;
-  border-width: 5px 0 0 0;
-	border-color: #FFA500
+	border-width: 5px 0 0 0;
+	border-color: #FFA500;
+	margin-left:-8px;
+}
+
+.imgfont_f1 a img, .imgfont_f2 a img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0.5rem;
 }
 
 #left-part{
@@ -134,7 +158,7 @@
 /* styling of highscore part */
 	#score_fetching{
 		margin-left: 2rem;
-		margin-right: 1rem;
+		margin-right: 2rem;
 	}
 	/*.highscore-row div{
 		display:inline-block;
@@ -174,12 +198,12 @@
 		border-color: #FFA500
 	}
 
-
 /* Media Queries -------------------- */
 
 @media (min-width: 1600px) {
   .layout-content-m, #footer-bg {
-    width:82%;
+    //width:82%;
+	width: 100%
   }
 }
 
@@ -190,6 +214,9 @@
 }
 
 @media (max-width: 1110px) {
+  #virtuaalikunta-logo-fi {
+    
+  }
 	#playbutton_front{
 		margin-left: 0;
 	}
@@ -216,18 +243,7 @@
 	#third-part{
 		width:100%;
 	}
-	#first-part-img img{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 5px;
-	}
-	#third-part-img img{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 5px;
-	}
+
 }
 
 @media (min-width: 481px){
@@ -247,12 +263,13 @@
 		.layout-content-m{
 			/*background-image:url('../images/frontpage_bg.png');
 			background-repeat: no-repeat;*/
-			min-height: 1183px;
+			height: 1183px;
 		}
 	}
+	.imgfont_f1 a img{ margin-right:1rem; }
 	#fourth-part{
 		width: 459px;
-		padding-right: 9rem;
+		padding-right: 7rem;
 	}
 	#first-part-img{
 		float: left;
@@ -267,12 +284,15 @@
 		float:left;
 	}
 
-	.imgfont_f1{
+	.imgfont_f1 img{
+		float: left;
+		width: 45%;
 		margin:6px;
 	}
 
-	.imgfont_f2{
+	.imgfont_f2 img{
 		float:left;
+		width: 45%;
 		margin:6px;
 	}
 }
@@ -289,6 +309,11 @@
 		width: 222px;
 		min-height: 420px;
 	}
+	
+	#score_fetching{
+		margin-right: 1rem;
+	}
+	
 	.container{
 		width: 100%;
 	}

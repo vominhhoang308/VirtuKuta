@@ -1,0 +1,265 @@
+/*@media...*/
+
+body{
+	margin: 0px;
+	width: 100vw;
+	/*height: 170vh;*/
+	overflow-x: hidden;
+}
+
+
+@media (min-width: 1375px) {
+	.pelitContainers{
+		max-width: 1356px;
+		height: 100%;
+		margin: auto;
+		background-size: 100%;
+		background-color: #82CEF9;
+	}
+	
+	#pelitwrapper h2 {
+		color: white;
+		font-family: MyHelvetica, Helvetica, Arial, sans-serif;
+		font-size: 30px;
+		font-weight: lighter;
+		text-align: right;
+		margin-right: 5%;
+		margin-top: -6%;
+		margin-bottom: -5%;
+	}
+	
+	#pfull h2 {
+		margin-bottom: -1.5%;
+		margin-right: 3%;
+		margin-top: -3%;
+	}
+	
+	#pelitwrapper  p {
+		color: white;
+		font-family:;
+		font-size: 14px;
+		text-align:right;
+		margin-right: 5%;
+		margin-top: auto;
+		margin-bottom:7%;
+	}
+	
+	#pfull p {
+		margin-right: 3%;
+		margin-bottom: 3%;
+	}
+	
+	#pelitwrapper a {
+		color: #fff;
+		font-family:MyHelvetica, Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		font-weight: bold;
+		margin-left: 73%;
+		margin-top: 25%;
+		position: relative;
+		z-index: 2;
+	}
+	
+	#pfull a {
+		margin-left: 87%;
+	}
+	
+	#pelitwrapper img{
+		z-index: 1;
+		float: left;
+		margin-left: 59%;
+		position: relative;
+		margin-bottom: -6%;
+	}
+	
+	#pfull img{
+		margin-left: 80.5%;
+		margin-bottom: -3%;
+	}
+	#plpart{
+		float: left;
+		width: 33%;
+		margin-left: 16%;
+		height: 335px;
+		margin-top: 4%;
+	}
+	
+	#prpart{
+		float: right;
+		width: 33%;
+		margin-right: 16%;
+		margin-top: 4%;
+		height: 335px;
+	}
+	
+	#pfull{
+		width: 69%;
+		height: 335px;
+		margin-left: 15%;
+		margin-top: 3%;
+	}
+	.clearfix:after {
+		 visibility: hidden;
+		 display: block;
+		 font-size: 0;
+		 content: " ";
+		 clear: both;
+		 height: 0;
+		 }
+	.clearfix { display: inline-block;}
+
+	* html .clearfix { height: 1%; }
+	.clearfix { display: block; }
+	
+	.clearfix:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+	
+	.pmain{
+		width: auto;
+		height: auto;
+		overflow: auto;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-color: #83CEF9;
+		background-position: top;
+		position: center;
+		align: center;
+		margin-bottom: 5%;
+		margin-top: 1px;
+		margin-float: left; 
+		width: auto;
+		margin-right: 0;
+		display: block;
+		overflow-x: hidden;
+	}
+}
+
+@media  (min-width: 975px) and (max-width: 1375px) {
+	.pmain{
+		width: 100%;
+		height: 100%;
+		margin-bottom: 5%;
+	}
+	#secondPart{
+		width: 69%;
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#pfull{
+		width: 70%;
+		height: 335px;
+		background-repeat: no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#plpart{	
+		width: 50%;
+		height: 335px;
+		background-repeat: no-repeat;
+	}
+	
+	#prpart{
+		width: 50%;
+		height: 335px;
+		background-repeat: no-repeat;
+	}
+}	
+	/*OPETTAJALLE FOR TORSTAI*/
+/* 	#torstaionly{
+		background-color: white;
+		width: 90%;
+		margin-float: left; width: auto;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-left: 1em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		overflow: auto;
+	}
+
+	#opettajalllelinks{
+		position: relative;
+		top: 1px;
+		width: 100%;
+		height: auto;
+		background-color: #840bd1;
+		color: white;
+		text-align: center;
+	}
+
+	#opettajalllelinks a{
+		color: white;
+		border: 2px solid white;
+	}
+ */	/*FRONTPAGE FOR TORSTAI*/
+/* 	.torstaileft{
+		background-color: white;
+		position: relative;
+		float: left; width: auto;
+		width: 100vw;
+	}
+
+	.torstairight{
+		background-color: white;
+		position: relative;
+		float: left; width: auto;
+		width: 100vw;
+	}
+
+	#tpbtn{
+		position: relative;
+		float: left; width: auto;
+		width: 100vw;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	#tpbtn img{
+		width: 100vw;
+	}
+
+	.tcl{
+		position: relative;
+		float: left;
+		width: auto;
+		width: 100vw;
+		padding-bottom: 2em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.tcl img{
+		position: relative;
+		float: left; width: auto;
+		width: 100vw;
+		padding-bottom: 2em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.tcr{
+		position: relative;
+		float: left; width: auto;
+		width: 100vw;
+		padding-bottom: 2em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.torstaifooter{
+		position: relative;
+		float: left; width: auto;
+		width: 100vw;
+		padding-bottom: 2em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+} */
